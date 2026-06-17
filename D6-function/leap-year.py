@@ -1,4 +1,4 @@
-# import calendar
+import calendar
 
 # def is_leap(year):
 #     leap = False
@@ -26,5 +26,5 @@ def is_leap(year):
 
     return leap
 
-year = 2000
+year = int(input())
 print(is_leap(year))
